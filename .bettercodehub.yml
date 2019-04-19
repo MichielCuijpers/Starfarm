@@ -2,6 +2,9 @@ component_depth: 4
 languages:
 - cpp
 exclude:
-- SFML*/*
-- test/*
-- test/catch.hpp
+- /SFML*.*
+- .*/tests/catch.hpp
+
+exclude:
+- /DirectoryYouWantToExclude/.*
+- .*/FileYouWantToExclude\.java
